@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class Day2UserController {
+public class J2PathVariable {
 
     @GetMapping("/hello/{name}")
     public String dynamicHello(@PathVariable String name){
@@ -35,6 +35,8 @@ public class Day2UserController {
             <a href='/'>Go Home</a>
             """.formatted(result);
     }
+
+
 
 
 }
