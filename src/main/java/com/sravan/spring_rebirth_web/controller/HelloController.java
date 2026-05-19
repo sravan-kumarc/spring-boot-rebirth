@@ -21,6 +21,10 @@ public class HelloController {
                 <a href='/welcome'>Welcome Page</a><br>
                 <a href='/about'>About Page</a><br>
                 <a href='/skills'>Skills Page</a><br>
+                <a href='/greet?name=Sravan'>Greeting API</a><br>
+                <a href='/calculator?a=10&b=20'>Calculator API</a><br>
+                <a href='/vote?age=25'>Voting API</a><br>
+                <a href='/userinfo?name=Sravan&role=DevOps'>User Info API</a><br>
                 """;
     }
 
