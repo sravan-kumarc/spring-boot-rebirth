@@ -67,5 +67,19 @@ public class J4EmployeeController {
         }
             return null;
     }
+
+    @DeleteMapping("/employees/{id}")
+    public String deleteEmployee(@PathVariable int id){
+
+        for(Employee employee: employeeList){
+            if ( employee.getUid() == id ) {
+                employeeList.remove(employee);
+                return "employee deleted";
+            }
+        }
+        return "emp not found";
+    }
+
+
 }
 
