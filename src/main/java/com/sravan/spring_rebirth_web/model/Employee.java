@@ -4,9 +4,18 @@ public class Employee {
     private String name;
     private String company;
     private String designation;
+    private int uid;
 
     public Employee() {
 
+    }
+
+    public int getUid(){
+        return uid;
+    }
+
+    public void setUid(int uid) {
+        this.uid = uid;
     }
 
     public String getName() {

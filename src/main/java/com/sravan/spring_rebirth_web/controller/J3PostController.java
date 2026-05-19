@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class PostController {
+public class J3PostController {
 
     @PostMapping("/test")
     public String testPost() {
